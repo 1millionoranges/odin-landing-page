@@ -3,8 +3,7 @@ body{
     flex-direction:column;
     flex:1;
     justify-content: space-between;
-    padding-left:100px;
-    padding-right:100px;
+
 }
 .header{
     display:flex;
@@ -34,7 +33,8 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-   
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 .information-boxes{
     width:auto;
@@ -42,12 +42,14 @@ a{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap:10px;
+    gap:40px;
 }
 .information-box{
     display: flex;
     flex-direction: column;
     align-items:center;
+    flex-wrap: wrap;
+    
 }
 .info-pic{
     padding: 10px;
@@ -62,4 +64,65 @@ a{
     display:flex;
     flex-direction: column;
     align-items: right;
+    background-color: #E5E7EB;
+    padding: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+.quote{
+    text-align: left;
+    font-size: 36px;
+    font-family: 'light italic';
+    color:#1F2937;
+
+}
+.quote-guy{
+    text-align:right;
+}
+.footer{
+    text-align: center;
+    font-size:12;
+    font-weight:100;
+}
+.call-to-action{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:50px;
+    margin-left:50px;
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:50px;
+    padding-right:50px;
+    border: none;
+    border-radius: 2pt;
+    outline: none;
+    box-shadow: 0 0 0 2pt #3882F6;
+    background-color: #3882F6;
+    align-items: center;
+}
+button{
+    width:100px;
+    height:30px;
+    color:white;border: none;
+    border-radius: 2pt;
+    outline: none;
+    box-shadow: 0 0 0 1pt white;
+    background-color: #3882F6;
+}
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color:white;
+}
+.call-to-action-text p{
+    margin:0;
+    padding:0;
+}
+.bolder{
+    font-weight:bold;
+    font-size:large;
 }
